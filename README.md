@@ -12,7 +12,11 @@ Update 07 Oct 2021
 - macOS Monterey 12 / Open Core 0.7.5
 - PCIe SATA card: Marvell 88SE9128 StarTech PCI Express
 - Broadcom Brcm43xx
-- 
+
 ### Support 10.12 to macOS Monterey 12 / Boot Windows 10, Windows 11 natively Use DSDT Patch Broadcom Brcm43xx
 
+- Download ➤ [OpenCore-0.7.5-Package.pkg.zip](https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1/raw/main/OpenCore-0.7.5-Package.pkg.zip)
+
 ### By installing this package it will install a specific EFI folder for the HP Prodesk 600 G1, so if you already have Open Core install make a backup of your EFI before using this program.
+
+![ScreenPackage](https://user-images.githubusercontent.com/6248794/136392209-5d980241-3603-420b-b60e-24f60b99e322.png)
