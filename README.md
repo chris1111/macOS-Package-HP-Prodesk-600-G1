@@ -2,6 +2,7 @@ Update 07 Oct 2021
 
 # macOS-Package-HP-Prodesk-600-G1
 
+![system16 copy](https://user-images.githubusercontent.com/6248794/136391545-6f86a804-d7c2-4f4c-bc25-87fb8583bbce.png)
 
 ### Support  
 - CPU: i5-4590 (3,30 GHz)
