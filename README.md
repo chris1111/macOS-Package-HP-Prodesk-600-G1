@@ -1,4 +1,4 @@
-Update 07 Oct 2021
+Update 07 Oct 2021 Package OpenCore 0.7.5
 
 # macOS-Package-HP-Prodesk-600-G1
 
