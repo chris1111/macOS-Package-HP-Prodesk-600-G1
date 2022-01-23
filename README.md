@@ -2,6 +2,8 @@ Update 23 Jan 2022 Package OpenCore 0.7.8
 
 # macOS-Package-HP-Prodesk-600-G1
 
+### SIP Security and Gatekeeper must be disable to using this Program!
+
 ![system16 copy](https://user-images.githubusercontent.com/6248794/136391545-6f86a804-d7c2-4f4c-bc25-87fb8583bbce.png)
 
 ### Support  
