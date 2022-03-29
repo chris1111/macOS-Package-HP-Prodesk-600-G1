@@ -1,4 +1,4 @@
-Update 23 Jan 2022 Package OpenCore 0.7.8
+Update 29 Mar 2022 Package OpenCore 0.8.0
 
 # macOS-Package-HP-Prodesk-600-G1
 
