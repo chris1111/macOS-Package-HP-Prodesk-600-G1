@@ -19,8 +19,14 @@ Update 29 Mar 2022 Package OpenCore 0.8.0
 
 ### Support Monterey 12, macOS Ventura 13 / Boot Windows 10, Windows 11 natively Use DSDT Patch
 
-- Download ➤ [OpenCore-Package-0.8.4-V1.pkg.zip](https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1/raw/main/OpenCore-Package-0.8.4-V1.pkg.zip)
+- Download ➤ [OpenCore-Package-0.8.4-V2.pkg.zip](https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1/raw/main/OpenCore-Package-0.8.4-V2.pkg.zip)
 
 ### By installing this package it will install a specific EFI folder for the HP Prodesk 600 G1, so if you already have Open Core install make a backup of your EFI before using this program.
 
 ![ScreenPackage](https://user-images.githubusercontent.com/6248794/136392209-5d980241-3603-420b-b60e-24f60b99e322.png)
+
+##### Credit:
+- [acidanthera](https://github.com/acidanthera) OpenCore + kexts/Plugins
+- [headkaze](https://github.com/headkaze) Hackintool
+- [1alessandro1](https://github.com/1alessandro1) SSDT
+
