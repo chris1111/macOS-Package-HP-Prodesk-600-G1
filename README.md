@@ -15,6 +15,11 @@ Update 13 August 2022 Package OpenCore 0.8.4
 - PCIe SATA card: Marvell 88SE9128 StarTech PCI Express
 - Broadcom Brcm43xx
 
+### Bios setup:
+1. use bios defaults
+2. Storage = SATA Emulation > AHCI
+3. Integreted Video = Disabled (For Ventura 13)
+
 ## Note: Intel HD 4600 not working in macOS Ventura 13
 
 ### Support Monterey 12, macOS Ventura 13 / Boot Windows 10, Windows 11 natively Use SSDT Patch
