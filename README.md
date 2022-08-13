@@ -17,7 +17,7 @@ Update 13 August 2022 Package OpenCore 0.8.4
 
 ## Note: Intel HD 4600 not working in macOS Ventura 13
 
-### Support Monterey 12, macOS Ventura 13 / Boot Windows 10, Windows 11 natively Use DSDT Patch
+### Support Monterey 12, macOS Ventura 13 / Boot Windows 10, Windows 11 natively Use SSDT Patch
 
 - Download ➤ [OpenCore-Package-0.8.4-V2.pkg.zip](https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1/raw/main/OpenCore-Package-0.8.4-V2.pkg.zip)
 
