@@ -5,6 +5,8 @@ Update 13 August 2022 Package OpenCore 0.8.4
 ### SIP Security and Gatekeeper must be disable to using this Program!
 
 ![system16 copy](https://user-images.githubusercontent.com/6248794/136391545-6f86a804-d7c2-4f4c-bc25-87fb8583bbce.png)
+#### Support Monterey 12, macOS Ventura 13 / Boot Windows 10, Windows 11 natively Use SSDT Patch
+
 
 ### Support  
 - CPU: i5-4590 (3,30 GHz)
@@ -22,7 +24,6 @@ Update 13 August 2022 Package OpenCore 0.8.4
 
 ## Note: Intel HD 4600 not working in macOS Ventura 13
 
-### Support Monterey 12, macOS Ventura 13 / Boot Windows 10, Windows 11 natively Use SSDT Patch
 
 - Download ➤ [OpenCore-Package-0.8.4-V2.pkg.zip](https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1/raw/main/OpenCore-Package-0.8.4-V2.pkg.zip)
 
