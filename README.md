@@ -33,5 +33,5 @@ Update 13 August 2022 Package OpenCore 0.8.4
 ##### Credit:
 - [acidanthera](https://github.com/acidanthera) OpenCore + kexts/Plugins
 - [headkaze](https://github.com/headkaze) Hackintool
-- [1alessandro1](https://github.com/1alessandro1/HP-Prodesk-600-G1-SFF-macOS) HP-Prodesk-600-G1-SFF-macOS ➤ SSDT
+- [1alessandro1](https://github.com/1alessandro1/HP-Prodesk-600-G1-SFF-macOS) OpenCore-Package-0.8.4-V2 ➤ SSDT
 
