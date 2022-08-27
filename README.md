@@ -1,4 +1,4 @@
-Update 13 August 2022 Package OpenCore 0.8.4
+Update 26 August 2022 OpenCore-Package-0.8.4-V3
 
 # macOS-Package-HP-Prodesk-600-G1
 
@@ -25,7 +25,7 @@ Update 13 August 2022 Package OpenCore 0.8.4
 ## Note: Intel HD 4600 not working in macOS Ventura 13
 
 
-- Download ➤ [OpenCore-Package-0.8.4-V2.pkg.zip](https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1/raw/main/OpenCore-Package-0.8.4-V2.pkg.zip)
+- Download ➤ [OpenCore-Package-0.8.4-V3.pkg.zip](https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1/raw/main/OpenCore-Package-0.8.4-V3.pkg.zip)
 
 ### By installing this package it will install a specific EFI folder for the HP Prodesk 600 G1, so if you already have Open Core install make a backup of your EFI before using this program.
 
