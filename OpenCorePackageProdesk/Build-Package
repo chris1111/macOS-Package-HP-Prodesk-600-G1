@@ -45,3 +45,4 @@ productbuild --distribution "./OpenCore-Package/BUILD-PACKAGE/Distribution.xml" 
 "./OpenCore-Package.pkg"
 
 rm -rf ./OpenCore-Package
+Open ./
