@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.chris1111.Marvell-Injector</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Marvell-Injector</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.1</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>88SE9128</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleAHCIPort</string>
+			<key>Chipset Name</key>
+			<string>88SE9128 StarTech PCI Express</string>
+			<key>IOClass</key>
+			<string>AppleAHCI</string>
+			<key>IOPCIClassMatch</key>
+			<string>0x01060100&amp;0xffffff00</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x91281b4b</string>
+			<key>IOProbeScore</key>
+			<integer>15000</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>Vendor Name</key>
+			<string>Marvell</string>
+		</dict>
+	</dict>
+        <key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2016 chris1111. All rights reserved.</string>
+	<key>OSBundleRequired</key>
+	<string>Local-Root</string>
+</dict>
+</plist>

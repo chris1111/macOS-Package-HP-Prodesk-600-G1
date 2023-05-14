@@ -1,0 +1,47 @@
+#!/bin/bash
+# script for Installer OpenCorePackage
+# Copyright (c) 2023 chris1111 All rights reserved.
+PARENTDIR=$(dirname "$0")
+cd "$PARENTDIR"
+
+# shell script Notifications
+osascript -e 'display notification "Installer OpenCorePackage" with title "Create"  sound name "default"'
+# Delete build if exist
+find . -name '.DS_Store' -type f -delete
+rm -rf ./OpenCore-Package
+rm -rf ./OpenCore-Package
+rm -rf /tmp/PackageDIR
+rm -rf ./OpenCore-Package.pkg
+Sleep 1
+mkdir -p ./OpenCore-Package/BUILD-PACKAGE
+mkdir -p /tmp/PackageDIR
+echo "
+= = = = = = = = = = = = = = = = = = = = = = = = =
+Create the Packages with pkgbuild 
+= = = = = = = = = = = = = = = = = = = = = = = = ="
+Sleep 2
+# Create the Packages with pkgbuild
+pkgbuild --root ./OC-EFI --scripts ./ScriptEFI --identifier com.opencorePackage.OpenCorePackage.pkg --version 1.0 --install-location /Private/tmp/EFIROOTDIR ./OpenCore-Package/BUILD-PACKAGE/opencorePackage.pkg
+echo "
+= = = = = = = = = = = = = = = = = = = = = = = = =
+Expend the Packages with pkgutil 
+= = = = = = = = = = = = = = = = = = = = = = = = ="
+Sleep 2
+# Expend the Packages with pkgutil
+pkgutil --expand ./OpenCore-Package/BUILD-PACKAGE/opencorePackage.pkg /tmp/PackageDIR/opencorePackage.pkg
+Sleep 2
+# Copy resources and distribution
+cp -r ./Distribution ./OpenCore-Package/BUILD-PACKAGE/Distribution.xml
+cp -rp ./Resources ./OpenCore-Package/BUILD-PACKAGE/
+echo "
+= = = = = = = = = = = = = = = = = = = = = = = = =
+Create the final Packages with Productbuild 
+= = = = = = = = = = = = = = = = = = = = = = = = ="
+Sleep 2
+# Create the final Packages with Productbuild
+productbuild --distribution "./OpenCore-Package/BUILD-PACKAGE/Distribution.xml"  \
+--package-path "./OpenCore-Package/BUILD-PACKAGE/" \
+--resources "./OpenCore-Package/BUILD-PACKAGE/Resources" \
+"./OpenCore-Package.pkg"
+
+rm -rf ./OpenCore-Package

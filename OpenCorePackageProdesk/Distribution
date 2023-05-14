@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<installer-script authoringTool="com.opencorePackage.Productbuild" authoringToolVersion="1.0" authoringToolBuild="100000" minSpecVersion="1">
+    <title>OpenCore Package</title>
+    <options customize="never" allow-external-scripts="yes"/>
+    <domains enable_anywhere="true"/>
+    <background file="background.png" alignment="center" scaling="tofit"/>
+    <background-darkAqua file="background.png" alignment="center" scaling="tofit"/>
+    <welcome file="Welcome.rtf"/>
+    <choices-outline>
+        <line choice="choice1"/>
+    </choices-outline>
+    <choice id="choice1" title="OpenCore Package">
+        <pkg-ref id="com.opencorePackage.opencorePackage.OpenCorePackage.pkg"/>
+    </choice>
+    <pkg-ref id="com.opencorePackage.opencorePackage.OpenCorePackage.pkg" installKBytes="12102" version="1.0" auth="Root" packageIdentifier="com.opencorePackage.OpenCorePackage.pkg">#opencorePackage.pkg</pkg-ref>
+    <pkg-ref id="com.opencorePackage.opencorePackage.OpenCorePackage.pkg">
+        <bundle-version>
+            <bundle CFBundleShortVersionString="1.6.1" CFBundleVersion="1.6.1" id="as.vit9696.WhateverGreen" path="EFI/OC/Kexts/WhateverGreen.kext"/>
+            <bundle CFBundleShortVersionString="2.6.3" CFBundleVersion="2.6.3" id="as.acidanthera.BlueToolFixup" path="EFI/OC/Kexts/BlueToolFixup.kext"/>
+            <bundle CFBundleShortVersionString="1.0.8" CFBundleVersion="1.0.8" id="as.acidanthera.mieze.IntelMausi" path="EFI/OC/Kexts/IntelMausi.kext"/>
+            <bundle CFBundleShortVersionString="1.0" CFBundleVersion="1.0" id="as.lvs1974.AirportBrcmNICInjector" path="EFI/OC/Kexts/AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcmNIC_Injector.kext"/>
+            <bundle CFBundleShortVersionString="1.6.2" CFBundleVersion="1.6.2" id="as.vit9696.Lilu" path="EFI/OC/Kexts/Lilu.kext"/>
+            <bundle CFBundleShortVersionString="2.1.6" CFBundleVersion="2.1.6" id="as.lvs1974.AirportBrcmFixup" path="EFI/OC/Kexts/AirportBrcmFixup.kext"/>
+            <bundle CFBundleShortVersionString="1.3.0" CFBundleVersion="1.3.0" id="as.vit9696.VirtualSMC" path="EFI/OC/Kexts/VirtualSMC.kext"/>
+            <bundle CFBundleShortVersionString="1.1" CFBundleVersion="1.1" id="com.chris1111.Intel8Series-Injector" path="EFI/OC/Kexts/Intel8Series-Injector.kext"/>
+            <bundle CFBundleShortVersionString="1.1" CFBundleVersion="1.1" id="com.chris1111.Marvell-Injector" path="EFI/OC/Kexts/Marvell-Injector.kext"/>
+            <bundle CFBundleShortVersionString="1.7.4" CFBundleVersion="1.7.4" id="as.vit9696.AppleALC" path="EFI/OC/Kexts/AppleALC.kext"/>
+            <bundle CFBundleShortVersionString="1.3.0" CFBundleVersion="1.3.0" id="as.vit9696.SMCProcessor" path="EFI/OC/Kexts/SMCProcessor.kext"/>
+        </bundle-version>
+    </pkg-ref>
+</installer-script>
