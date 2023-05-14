@@ -26,7 +26,18 @@ Update 14 May 2023 OpenCore-Package-0.9.3-V1
 ## Note: Intel HD 4600 not working in macOS Ventura 13
 
 
-- Download ➤ [OpenCore-Package-0.9.3-V1.zip](https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1/raw/main/OpenCore-Package-0.9.3-V1.pkg.zip)
+## How to download and Build Package ⬇︎
+- Prerequisite: [Git installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)- or Command Line Tools (CLT) for Xcode (from `xcode-select --install` or [Developer Apple Command Line Tools](https://developer.apple.com/download/all/)
+
+- [x] `Command build`
+```bash
+
+git clone https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1.git
+cd macOS-Package-HP-Prodesk-600-G1
+cd OpenCorePackageProdesk
+./Build-Package
+
+```
 
 ### By installing this package it will install a specific EFI folder for the HP Prodesk 600 G1, so if you already have Open Core install make a backup of your EFI before using this program.
 
