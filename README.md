@@ -1,4 +1,4 @@
-Update 14 May 2023 OpenCore-Package-0.9.3-V1
+Update 20 June 2023 OpenCore-Package-0.9.4-V1
 
 # macOS-Package-HP-Prodesk-600-G1
 
@@ -46,5 +46,5 @@ cd OpenCorePackageProdesk
 ##### Credit:
 - [acidanthera](https://github.com/acidanthera) OpenCore + kexts/Plugins
 - [headkaze](https://github.com/headkaze) Hackintool
-- [1alessandro1](https://github.com/1alessandro1/HP-Prodesk-600-G1-SFF-macOS) OpenCore-Package-0.8.4-V2 ➤ SSDT
+- [chris1111](https://github.com/chris1111) OpenCore-Package-0.9.4-V1 ➤ DSDT
 
