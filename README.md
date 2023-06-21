@@ -25,9 +25,6 @@ Update 20 June 2023 OpenCore-Package-0.9.4-V1
 
 ## Note: Intel HD 4600 not working in macOS Ventura 13, macOS Sonoma 14
 
-Note: Using the Package for macOS Sonoma 14
-- Rename `config.plist` to `config-Ventura.plist` Rename `config-Sonoma.plist` to `config.plist`
-
 ## How to download and Build Package ⬇︎
 Note: Using the Package for macOS Sonoma 14
 - Rename `config.plist` to `config-Ventura.plist` Rename `config-Sonoma.plist` to `config.plist`
