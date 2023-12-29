@@ -12,7 +12,8 @@ Update 29 Dec 2023 OpenCore-Package-0.9.8-V2
 ### SIP Security and Gatekeeper must be disable to using this Program!
 
 
-<img loading="lazy" width="550" alt="1" src="https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1/blob/main/Demo.png">
+<img loading="lazy" width="550" alt="1" src="https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1/assets/6248794/35dcdf50-0437-48c9-8714-fd86ca525be3">
+
 
 #### Support Monterey 12, macOS Ventura 13, macOS Sonoma 14 / Boot Windows 10, Windows 11 natively
 
