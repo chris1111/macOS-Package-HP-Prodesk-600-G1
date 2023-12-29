@@ -1,4 +1,6 @@
-Update 20 June 2023 OpenCore-Package-0.9.4-V1
+Update 29 Dec 2023 OpenCore-Package-0.9.8-V2
+- Fix Sleep / wake Sonoma 14, Fix Boot Windows.
+- Update OpenCore 0.9.8
 
 # macOS-Package-HP-Prodesk-600-G1
 
@@ -6,7 +8,7 @@ Update 20 June 2023 OpenCore-Package-0.9.4-V1
 
 ![Demo](https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1/blob/main/Demo.png)
 
-#### Support Monterey 12, macOS Ventura 13, macOS Sonoma 14 / Boot Windows 10, Windows 11 natively Use DSDT
+#### Support Monterey 12, macOS Ventura 13, macOS Sonoma 14 / Boot Windows 10, Windows 11 natively
 
 
 ### Support  
