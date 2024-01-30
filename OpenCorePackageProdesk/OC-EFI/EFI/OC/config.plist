@@ -10,7 +10,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
 				<string>DSDT.aml</string>
 			</dict>
@@ -368,7 +368,7 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
-                </array>
+		</array>
 		<key>Block</key>
 		<array/>
 		<key>Emulate</key>
