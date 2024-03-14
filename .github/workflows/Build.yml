@@ -1,0 +1,37 @@
+name: G1
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build-macos:
+    name: Build Release
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Manage Version
+        run: |
+          git fetch --prune --unshallow --tags
+          echo "CUR_TAG=$(git tag -l | tail -1)" >> $GITHUB_ENV
+          echo "GIT_SHA=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+
+
+      - name: Build Release
+        run: |
+          chmod +x ./OpenCorePackageProdesk/Build-Package
+          .//OpenCorePackageProdesk/Build-Package "" G1
+      - name: Prepare Release
+        run: |
+          (cd "OpenCorePackageProdesk/" || exit 1)
+          releaseItems=(OpenCorePackageProdesk/OpenCore-Package.pkg)
+          for releaseItem in "${releaseItems[@]}"; do cp -Rf "${releaseItem}" ./ || exit 1; done
+      - name: Upload to Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: G1 beta-${{ env.GIT_SHA }}
+          path: |
+            OpenCore-Package.pkg
+          
