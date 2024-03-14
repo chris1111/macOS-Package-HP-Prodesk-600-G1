@@ -3,5 +3,5 @@ jobs:
     name: Example
     runs-on: ubuntu-latest
     steps:
-      - name: Call a Bash Script
+      - name: Call a BashScript
         run:  bash ${GITHUB_WORKSPACE}/OpenCorePackageProdesk/Build-Package
