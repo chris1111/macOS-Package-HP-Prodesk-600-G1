@@ -25,7 +25,7 @@ jobs:
           ./OpenCorePackageProdesk/Build-Package "" G1
       - name: Prepare Release
         run: |
-          (cd "OpenCorePackageProdesk/OpenCore-Package.pkg" || exit 1)
+          (cd "OpenCorePackageProdesk/OC-EFI" || exit 1)
           releaseItems=(OpenCorePackageProdesk)
           for releaseItem in "${releaseItems[@]}"; do cp -Rf "${releaseItem}" ./ || exit 1; done
       - name: Upload to Artifacts
