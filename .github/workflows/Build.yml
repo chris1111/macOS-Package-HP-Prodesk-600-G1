@@ -1,4 +1,4 @@
-name: Prodesk-600-G1
+name: OpenCore-Package
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-macos:
-    name: Build Release
+    name: Build OpenCore-Package
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
@@ -19,19 +19,19 @@ jobs:
           echo "GIT_SHA=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
 
 
-      - name: Build Release
+      - name: Build OpenCore-Package
         run: |
           chmod +x ./OpenCorePackageProdesk/Build-Package
           ./OpenCorePackageProdesk/Build-Package "" G1
       - name: Prepare Release
         run: |
           (cd "OpenCorePackageProdesk/" || exit 1)
-          releaseItems=(OpenCore-Package.pkg)
+          releaseItems=(OpenCorePackageProdesk/OpenCore-Package.pkg)
           for releaseItem in "${releaseItems[@]}"; do cp -Rf "${releaseItem}" ./ || exit 1; done
       - name: Upload to Artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: Prodesk-600-G1${{ env.GIT_SHA }}
+          name: OpenCore-Package${{ env.GIT_SHA }}
           path: |
             OpenCore-Package.pkg
-            
+                    
