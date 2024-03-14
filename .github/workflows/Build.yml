@@ -1,4 +1,4 @@
-name: G1
+name: Prodesk-600-G1
 
 on:
   push:
@@ -22,16 +22,16 @@ jobs:
       - name: Build Release
         run: |
           chmod +x ./OpenCorePackageProdesk/Build-Package
-          .//OpenCorePackageProdesk/Build-Package "" G1
+          ./OpenCorePackageProdesk/Build-Package "" G1
       - name: Prepare Release
         run: |
           (cd "OpenCorePackageProdesk/" || exit 1)
-          releaseItems=(OpenCorePackageProdesk/OpenCore-Package.pkg)
+          releaseItems=(OpenCorePackageProdesk)
           for releaseItem in "${releaseItems[@]}"; do cp -Rf "${releaseItem}" ./ || exit 1; done
       - name: Upload to Artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: G1 beta-${{ env.GIT_SHA }}
+          name: Prodesk-600-G1 beta-${{ env.GIT_SHA }}
           path: |
-            OpenCore-Package.pkg
-          
+            OpenCorePackageProdesk
+            
