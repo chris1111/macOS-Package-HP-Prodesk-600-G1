@@ -1,0 +1,5 @@
+title: macOS-Package-HP-Prodesk-600-G1
+description: macOS OpenCore Package for HP Prodesk 600 G1.
+github:
+  repository_url: https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1
+remote_theme: chris1111/cayman-dark
