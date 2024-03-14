@@ -25,13 +25,13 @@ jobs:
           ./OpenCorePackageProdesk/Build-Package "" G1
       - name: Prepare Release
         run: |
-          (cd "OpenCorePackageProdesk/OC-EFI" || exit 1)
-          releaseItems=(OpenCorePackageProdesk)
+          (cd "OpenCorePackageProdesk/" || exit 1)
+          releaseItems=(OpenCore-Package.pkg)
           for releaseItem in "${releaseItems[@]}"; do cp -Rf "${releaseItem}" ./ || exit 1; done
       - name: Upload to Artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: Prodesk-600-G1 beta-${{ env.GIT_SHA }}
+          name: Prodesk-600-G1${{ env.GIT_SHA }}
           path: |
-            OpenCorePackageProdesk
+            OpenCore-Package.pkg
             
