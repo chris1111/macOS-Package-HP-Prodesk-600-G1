@@ -10,7 +10,7 @@ jobs:
     name: Build OpenCore-Package
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Manage Version
         run: |
@@ -29,7 +29,7 @@ jobs:
           releaseItems=(OpenCorePackageProdesk/OpenCore-Package.pkg)
           for releaseItem in "${releaseItems[@]}"; do cp -Rf "${releaseItem}" ./ || exit 1; done
       - name: Upload to Artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: OpenCore-Package${{ env.GIT_SHA }}
           path: |
