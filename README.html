@@ -1,0 +1,377 @@
+<!doctype html>
+<!-- Created with GFM2HTML: https://github.com/rvagg/gfm2html -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="created-with" content="https://github.com/rvagg/gfm2html">
+    <body style="background-color:#2d313a;">
+
+    <style type="text/css">
+/* most of normalize.css */
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block;}[hidden],template{display:none;}html{font-family:sans-serif;/*1*/-ms-text-size-adjust:100%;/*2*/-webkit-text-size-adjust:100%;/*2*/}body{margin:0;}a{background:transparent;}a:focus{outline:thindotted;}a:active,a:hover{outline:0;}h1{font-size:2em;margin:0.67em0;}abbr[title]{border-bottom:1pxdotted;}b,strong{font-weight:bold;}dfn{font-style:italic;}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em;}pre{white-space:pre-wrap;}q{quotes:"\201C""\201D""\2018""\2019";}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-0.5em;}sub{bottom:-0.25em;}img{border:0;}svg:not(:root){overflow:hidden;}table{border-collapse:collapse;border-spacing:0;}
+
+html {
+  font: 14px 'Helvetica Neue', Helvetica, arial, freesans, clean, sans-serif;
+}
+
+.container {
+  line-height: 1.6;
+  color: #333;
+  background: #eee;
+  border-radius: 3px;
+  padding: 3px;
+  width: 790px;
+  margin: 10px auto;
+}
+
+.body-content {
+  background-color: #fff;
+  border: 1px solid #CACACA;
+  padding: 30px;
+}
+
+.body-content > *:first-child {
+  margin-top: 0 !important;
+}
+
+a, a:visited {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+  .markdown-body h1
+, .markdown-body h2
+, .markdown-body h3
+, .markdown-body h4
+, .markdown-body h5
+, .markdown-body h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #000;
+  border-bottom: 1px solid #ddd;
+}
+
+h2 {
+  font-size: 2em;
+  border-bottom: 1px solid #eee;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  background: transparent url("/img/hr.png") repeat-x 0 0;
+  border: 0 none;
+  color: #ccc;
+  height: 4px;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+td, th {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+th {
+  font-weight: bold;
+}
+
+blockquote {
+  border-left: 4px solid #ddd;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote > :last-child, blockquote > :first-child {
+  margin-bottom: 0px;
+}
+
+pre, code {
+  font-size: 13px;
+  font-family: 'UbuntuMono', monospace;
+  white-space: nowrap;
+  margin: 0 2px;
+  padding: 0px 5px;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre > code {
+  white-space: pre;
+}
+
+pre {
+  overflow-x: auto;
+  white-space: pre;
+  padding: 10px;
+  line-height: 150%;
+  background-color: #f8f8f8;
+  border-color: #ccc;
+}
+
+pre code, pre tt {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  border: none;
+}
+
+  .highlight .c
+, .highlight .cm
+, .highlight .cp
+, .highlight .c1 {
+    color:#999988;
+    font-style:italic;
+}
+
+.highlight .err {
+  color:#a61717;
+  background-color:#e3d2d2
+}
+
+  .highlight .o
+, .highlight .gs
+, .highlight .kc
+, .highlight .kd
+, .highlight .kn
+, .highlight .kp
+, .highlight .kr {
+    font-weight:bold
+}
+
+.highlight .cs {
+  color:#999999;
+  font-weight:bold;
+  font-style:italic
+}
+
+.highlight .gd {
+  color:#000000;
+  background-color:#ffdddd
+}
+
+.highlight .gd .x {
+  color:#000000;
+  background-color:#ffaaaa
+}
+
+.highlight .ge {
+  font-style:italic
+}
+
+  .highlight .gr
+, .highlight .gt {
+    color:#aa0000
+}
+
+  .highlight .gh
+, .highlight .bp {
+    color:#999999
+}
+
+.highlight .gi {
+  color:#000000;
+  background-color:#ddffdd
+}
+
+.highlight .gi .x {
+  color:#000000;
+  background-color:#aaffaa
+}
+
+.highlight .go {
+  color:#888888
+}
+
+  .highlight .gp
+, .highlight .nn {
+    color:#555555
+}
+
+
+.highlight .gu {
+  color:#800080;
+  font-weight:bold
+}
+
+
+.highlight .kt {
+  color:#445588;
+  font-weight:bold
+}
+
+  .highlight .m
+, .highlight .mf
+, .highlight .mh
+, .highlight .mi
+, .highlight .mo
+, .highlight .il {
+    color:#009999
+}
+
+  .highlight .s
+, .highlight .sb
+, .highlight .sc
+, .highlight .sd
+, .highlight .s2
+, .highlight .se
+, .highlight .sh
+, .highlight .si
+, .highlight .sx
+, .highlight .s1 {
+    color:#d14
+}
+
+.highlight .n {
+  color:#333333
+}
+
+  .highlight .na
+, .highlight .no
+, .highlight .nv
+, .highlight .vc
+, .highlight .vg
+, .highlight .vi
+, .highlight .nb {
+    color:#0086B3
+}
+
+.highlight .nc {
+  color:#445588;
+  font-weight:bold
+}
+
+.highlight .ni {
+  color:#800080
+}
+
+  .highlight .ne
+, .highlight .nf {
+    color:#990000;
+    font-weight:bold
+}
+
+.highlight .nt {
+  color:#000080
+}
+
+.highlight .ow {
+  font-weight:bold
+}
+
+.highlight .w {
+  color:#bbbbbb
+}
+
+.highlight .sr {
+  color:#009926
+}
+
+.highlight .ss {
+  color:#990073
+}
+
+.highlight .gc {
+  color:#999;
+  background-color:#EAF2F5
+}
+
+@media print {
+  .container {
+    background: transparent;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .body-content {
+    border: none;
+  }
+}
+</style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="body-content"><p>Update 29 Dec 2023 OpenCore-Package-0.9.8-V2</p>
+<ul>
+<li>Fix Sleep / wake Sonoma 14, Fix Boot Windows.</li>
+<li>Update OpenCore 0.9.8</li>
+</ul>
+<h1 id="macos-package-hp-prodesk-600-g1">macOS-Package-HP-Prodesk-600-G1</h1>
+<h3 id="sip-security-and-gatekeeper-must-be-disable-to-using-this-program-">SIP Security and Gatekeeper must be disable to using this Program!</h3>
+<img src="https://raw.githubusercontent.com/chris1111/macOS-Package-HP-Prodesk-600-G1/main/Demo.png" style="width:300px; height:250px" title="Cloud" alt="Cloud">
+<h4 id="support-monterey-12-macos-ventura-13-macos-sonoma-14-boot-windows-10-windows-11-natively">Support Monterey 12, macOS Ventura 13, macOS Sonoma 14 / Boot Windows 10, Windows 11 natively</h4>
+<h3 id="support">Support</h3>
+<ul>
+<li>CPU: i5-4590 (3,30 GHz)</li>
+<li>Graphics: Intel HD 4600 / AMD Radeon Pro WX 4100 4 GB: </li>
+<li>16 Gig RAM  DDR3</li>
+<li>Disk Burning: HP DVD-RAM UJ8E1</li>
+<li>macOS Ventura 13 / Open Core 0.8.4</li>
+<li>PCIe SATA card: Marvell 88SE9128 StarTech PCI Express</li>
+<li>Broadcom Brcm43xx</li>
+</ul>
+<h3 id="bios-setup-">Bios setup:</h3>
+<ol>
+<li>use bios defaults</li>
+<li>Storage = SATA Emulation &gt; AHCI</li>
+<li>Integreted Video = Disabled (For Ventura 13, Sonoma 14)</li>
+</ol>
+<h2 id="note-intel-hd-4600-not-working-in-macos-ventura-13-macos-sonoma-14">Note: Intel HD 4600 not working in macOS Ventura 13, macOS Sonoma 14</h2>
+<h2 id="how-to-download-and-build-package-">How to download and Build Package ⬇︎</h2>
+<ul>
+<li><p>Prerequisite: <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Git installed</a>- or Command Line Tools (CLT) for Xcode (from <code>xcode-select --install</code> or <a href="https://developer.apple.com/download/all/">Developer Apple Command Line Tools</a></p>
+</li>
+<li><p>[x] <code>Command build</code></p>
+</li>
+</ul>
+<p><code>git clone https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1.git</code></p>
+<p><code>cd macOS-Package-HP-Prodesk-600-G1</code></p>
+<p><code>cd OpenCorePackageProdesk</code></p>
+<p><code>./Build-Package</code></p>
+<h3 id="by-installing-this-package-it-will-install-a-specific-efi-folder-for-the-hp-prodesk-600-g1-so-if-you-already-have-open-core-install-make-a-backup-of-your-efi-before-using-this-program-">By installing this package it will install a specific EFI folder for the HP Prodesk 600 G1, so if you already have Open Core install make a backup of your EFI before using this program.</h3>
+<p><img src="https://user-images.githubusercontent.com/6248794/136392209-5d980241-3603-420b-b60e-24f60b99e322.png" alt="ScreenPackage"></p>
+<h5 id="credit-">Credit:</h5>
+<ul>
+<li><a href="https://github.com/acidanthera">acidanthera</a> OpenCore + kexts/Plugins</li>
+<li><a href="https://github.com/headkaze">headkaze</a> Hackintool</li>
+<li><a href="https://github.com/chris1111">chris1111</a> OpenCore-Package-0.9.4-V1 ➤ DSDT</li>
+</ul>
+</div>
+    </div>
+  </body>
+</html>
