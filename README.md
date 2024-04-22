@@ -2,7 +2,7 @@ Update 22 April 2024 OpenCore-Package-0.9.9-V1
 - Fix Sleep / wake Sonoma 14, Fix Boot Windows.
 - Update OpenCore 0.9.9
 
-### macOS-Package-HP-Prodesk-600-G1 [macOS-Package-HP-Prodesk-600-G1.html](https://rawcdn.githack.com/chris1111/macOS-Package-HP-Prodesk-600-G1/0b476edf181ac6d42c4b717d68c28698b03d5051/README.html)
+### macOS-Package-HP-Prodesk-600-G1 ➤ [Site](https://chris1111.github.io/macOS-Package-HP-Prodesk-600-G1/)
 ### SIP Security and Gatekeeper must be disable to using this Program!
 
 ![Demo](https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1/blob/main/Demo.png)
