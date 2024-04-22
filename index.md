@@ -3,9 +3,9 @@ layout: default
 ---
 
 
-Update 29 Dec 2023 OpenCore-Package-0.9.8-V2
+Update 22 April 2024 OpenCore-Package-0.9.9-V1
 - Fix Sleep / wake Sonoma 14, Fix Boot Windows.
-- Update OpenCore 0.9.8
+- Update OpenCore 0.9.9
 
 # macOS-Package-HP-Prodesk-600-G1
 
@@ -23,7 +23,7 @@ Update 29 Dec 2023 OpenCore-Package-0.9.8-V2
 - Graphics: Intel HD 4600 / AMD Radeon Pro WX 4100 4 GB: 
 - 16 Gig RAM  DDR3
 - Disk Burning: HP DVD-RAM UJ8E1
-- macOS Ventura 13 / Open Core 0.8.4
+- macOS Sonoma 14 / OpenCore 0.9.9
 - PCIe SATA card: Marvell 88SE9128 StarTech PCI Express
 - Broadcom Brcm43xx
 
