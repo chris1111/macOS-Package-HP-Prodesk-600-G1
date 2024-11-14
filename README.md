@@ -1,13 +1,13 @@
-Update 22 April 2024 OpenCore-Package-0.9.9-V1
-- Fix Sleep / wake Sonoma 14, Fix Boot Windows.
-- Update OpenCore 0.9.9
+Update 13 Nov 2024 OpenCore-Package-1.0.3-V1
+- Fix Sleep / wake macOS Sequoia 15
+- Update OpenCore 1.0.3
 
 ### macOS-Package-HP-Prodesk-600-G1 ➤ [Site](https://chris1111.github.io/macOS-Package-HP-Prodesk-600-G1/)
 ### SIP Security and Gatekeeper must be disable to using this Program!
 
 ![Demo](https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1/blob/main/Demo.png)
 
-#### Support Monterey 12, macOS Ventura 13, macOS Sonoma 14 / Boot Windows 10, Windows 11 natively
+#### Support macOS Monterey 12, macOS Ventura 13, macOS Sonoma 14, macOS Sonoma 15 / Boot Windows 10, Windows 11 natively
 
 
 ### Support  
@@ -32,16 +32,7 @@ Update 22 April 2024 OpenCore-Package-0.9.9-V1
 
 - [x] `Command build`
 
-
-`git clone https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1.git`
-
-`cd macOS-Package-HP-Prodesk-600-G1`
-
-`cd OpenCorePackageProdesk`
-
-`./Build-Package`
-
-
+`git clone https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1.git && cd macOS-Package-HP-Prodesk-600-G1 && cd OpenCorePackageProdesk && ./Build-Package`
 
 
 ### By installing this package it will install a specific EFI folder for the HP Prodesk 600 G1, so if you already have Open Core install make a backup of your EFI before using this program.
