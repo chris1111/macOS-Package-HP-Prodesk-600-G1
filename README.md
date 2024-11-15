@@ -1,6 +1,5 @@
-Update 13 Nov 2024 OpenCore-Package-1.0.3-V1
-- Fix Sleep / wake macOS Sequoia 15
-- Update OpenCore 1.0.3
+Update 15 Nov 2024 OpenCore-Package-1.0.3-V2
+- Use MacMini8.1
 
 ### macOS-Package-HP-Prodesk-600-G1 ➤ [Site](https://chris1111.github.io/macOS-Package-HP-Prodesk-600-G1/)
 ### SIP Security and Gatekeeper must be disable to using this Program!
@@ -22,9 +21,9 @@ Update 13 Nov 2024 OpenCore-Package-1.0.3-V1
 ### Bios setup:
 1. use bios defaults
 2. Storage = SATA Emulation > AHCI
-3. Integreted Video = Disabled (For Ventura 13, Sonoma 14)
+3. Integreted Video = Disabled (For Ventura 13, Sonoma 14, Sequoia 15)
 
-## Note: Intel HD 4600 not working in macOS Ventura 13, macOS Sonoma 14
+## Note: Intel HD 4600 not working in macOS Ventura 13, macOS Sonoma 14, macOS Sequoia 15
 
 ## How to download and Build Package ⬇︎
 

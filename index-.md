@@ -2,20 +2,15 @@
 layout: default
 ---
 
+Update 15 Nov 2024 OpenCore-Package-1.0.3-V2
+- Use MacMini8.1
 
-Update 22 April 2024 OpenCore-Package-0.9.9-V1
-- Fix Sleep / wake Sonoma 14, Fix Boot Windows.
-- Update OpenCore 0.9.9
-
-# macOS-Package-HP-Prodesk-600-G1
-
+### macOS-Package-HP-Prodesk-600-G1 ➤ [Site](https://chris1111.github.io/macOS-Package-HP-Prodesk-600-G1/)
 ### SIP Security and Gatekeeper must be disable to using this Program!
 
+![Demo](https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1/blob/main/Demo.png)
 
-<img loading="lazy" width="550" alt="1" src="https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1/assets/6248794/35dcdf50-0437-48c9-8714-fd86ca525be3">
-
-
-#### Support Monterey 12, macOS Ventura 13, macOS Sonoma 14 / Boot Windows 10, Windows 11 natively
+#### Support macOS Monterey 12, macOS Ventura 13, macOS Sonoma 14, macOS Sonoma 15 / Boot Windows 10, Windows 11 natively
 
 
 ### Support  
@@ -30,9 +25,9 @@ Update 22 April 2024 OpenCore-Package-0.9.9-V1
 ### Bios setup:
 1. use bios defaults
 2. Storage = SATA Emulation > AHCI
-3. Integreted Video = Disabled (For Ventura 13, Sonoma 14)
+3. Integreted Video = Disabled (For Ventura 13, Sonoma 14, Sequoia 15)
 
-## Note: Intel HD 4600 not working in macOS Ventura 13, macOS Sonoma 14
+## Note: Intel HD 4600 not working in macOS Ventura 13, macOS Sonoma 14, macOS Sequoia 15
 
 ## How to download and Build Package ⬇︎
 
@@ -40,16 +35,7 @@ Update 22 April 2024 OpenCore-Package-0.9.9-V1
 
 - [x] `Command build`
 
-
-`git clone https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1.git`
-
-`cd macOS-Package-HP-Prodesk-600-G1`
-
-`cd OpenCorePackageProdesk`
-
-`./Build-Package`
-
-
+`git clone https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1.git && cd macOS-Package-HP-Prodesk-600-G1 && cd OpenCorePackageProdesk && ./Build-Package`
 
 
 ### By installing this package it will install a specific EFI folder for the HP Prodesk 600 G1, so if you already have Open Core install make a backup of your EFI before using this program.
