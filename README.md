@@ -41,5 +41,7 @@ Update 15 Nov 2024 OpenCore-Package-1.0.3-V2
 ##### Credit:
 - [acidanthera](https://github.com/acidanthera) OpenCore + kexts/Plugins
 - [headkaze](https://github.com/headkaze) Hackintool
-- [chris1111](https://github.com/chris1111) OpenCore-Package-0.9.4-V1 ➤ DSDT
+- [chris1111](https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1) OpenCore-Package-HP-Prodesk-600-G1
+  
+
 
