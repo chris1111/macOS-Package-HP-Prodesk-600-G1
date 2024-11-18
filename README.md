@@ -23,7 +23,7 @@ Update 15 Nov 2024 OpenCore-Package-1.0.3-V2
 2. Storage = SATA Emulation > AHCI
 3. Integreted Video = Disabled (For Ventura 13, Sonoma 14, Sequoia 15)
 
-## Note: Intel HD 4600 not working in macOS Ventura 13, macOS Sonoma 14, macOS Sequoia 15
+### Note: Intel HD 4600 not working in macOS Ventura 13, macOS Sonoma 14, macOS Sequoia 15; You must use [OCLP](https://github.com/dortania/OpenCore-Legacy-Patcher/) to acheive this.
 
 ## How to download and Build Package ⬇︎
 
