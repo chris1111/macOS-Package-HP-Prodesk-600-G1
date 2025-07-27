@@ -9,8 +9,7 @@
 
 #### Support macOS Monterey 12, macOS Ventura 13, macOS Sonoma 14, macOS Sequoia 15 / Boot Windows 10, Windows 11 natively
 
-### Update 15 Nov 2024 OpenCore-Package-1.0.3-V2 - Use MacMini8.1
-
+### Update 26 Jul 2025 Add Tahoe ➥ [Branch](https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1/tree/Tahoe)
 ### Support  
 - CPU: i5-4590 (3,30 GHz)
 - Graphics: Intel HD 4600 / AMD Radeon Pro WX 4100 4 GB: 
