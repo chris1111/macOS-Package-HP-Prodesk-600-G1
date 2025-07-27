@@ -35,7 +35,7 @@
 
 - [x] `Command build`
 
-`git clone https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1.git && cd macOS-Package-HP-Prodesk-600-G1 && cd OpenCorePackageProdesk && ./Build-Package`
+`git clone --branch Tahoe https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1.git && cd macOS-Package-HP-Prodesk-600-G1 && cd OpenCorePackageProdesk && ./Build-Package`
 
 
 ### By installing this package it will install a specific EFI folder for the HP Prodesk 600 G1, so if you already have Open Core install make a backup of your EFI before using this program.
