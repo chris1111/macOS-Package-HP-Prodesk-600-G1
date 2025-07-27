@@ -10,7 +10,7 @@
 #### Support macOS Monterey 12, macOS Ventura 13, macOS Sonoma 14, macOS Sequoia 15 / Boot Windows 10, Windows 11 natively
 
 ### Update 26 Jul 2025 OpenCore 1.0.5 
-- EFI Support macOS Tahoe 26 only in post install
+- EFI Support macOS Tahoe 26 only in post install, do not use for USB Install Media.
 ## How to download and Build Package ⬇︎
 - Prerequisite: [Git installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)- or Command Line Tools (CLT) for Xcode (from `xcode-select --install` or [Developer Apple Command Line Tools](https://developer.apple.com/download/all/)
 
