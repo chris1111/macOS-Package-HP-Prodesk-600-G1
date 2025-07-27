@@ -11,6 +11,16 @@
 
 ### Update 26 Jul 2025 OpenCore 1.0.5 
 - EFI Support macOS Tahoe 26 only in post install
+## How to download and Build Package ⬇︎
+- Prerequisite: [Git installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)- or Command Line Tools (CLT) for Xcode (from `xcode-select --install` or [Developer Apple Command Line Tools](https://developer.apple.com/download/all/)
+
+- [x] `Command build`
+
+`git clone --branch Tahoe https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1.git && cd macOS-Package-HP-Prodesk-600-G1 && cd OpenCorePackageProdesk && ./Build-Package`
+
+
+### By installing this package it will install a specific EFI folder for the HP Prodesk 600 G1, so if you already have Open Core install make a backup of your EFI before using this program.
+
 - Installing MacOS Tahoe from ➥ [USB Install Media](https://github.com/chris1111/Install-Media-OC)
 
 ### Support  
@@ -28,17 +38,6 @@
 3. Integreted Video = Disabled (For Ventura 13, Sonoma 14, Sequoia 15)
 
 ### Note: Intel HD 4600 not working in macOS Ventura 13, macOS Sonoma 14, macOS Sequoia 15; You must use [OCLP](https://github.com/dortania/OpenCore-Legacy-Patcher/) to acheive this.
-
-## How to download and Build Package ⬇︎
-
-- Prerequisite: [Git installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)- or Command Line Tools (CLT) for Xcode (from `xcode-select --install` or [Developer Apple Command Line Tools](https://developer.apple.com/download/all/)
-
-- [x] `Command build`
-
-`git clone --branch Tahoe https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1.git && cd macOS-Package-HP-Prodesk-600-G1 && cd OpenCorePackageProdesk && ./Build-Package`
-
-
-### By installing this package it will install a specific EFI folder for the HP Prodesk 600 G1, so if you already have Open Core install make a backup of your EFI before using this program.
 
 ![ScreenPackage](https://user-images.githubusercontent.com/6248794/136392209-5d980241-3603-420b-b60e-24f60b99e322.png)
 
