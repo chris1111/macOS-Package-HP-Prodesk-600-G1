@@ -7,7 +7,7 @@
 
 ![Demo](https://github.com/chris1111/macOS-Package-HP-Prodesk-600-G1/blob/main/Demo.png)
 
-#### Support macOS Monterey 12, macOS Ventura 13, macOS Sonoma 14, macOS Sequoia 15 / Boot Windows 10, Windows 11 natively
+#### Support macOS Monterey 12, macOS Ventura 13, macOS Sonoma 14, macOS Sequoia 15, macOS Tahoe 26 / Boot Windows 10, Windows 11 natively
 
 ### Update 04 Nov 2025 Adapted for Tahoe 26. Update OpenCore 1.0.6
 ### Support  
