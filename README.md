@@ -9,7 +9,7 @@
 
 #### Support macOS Monterey 12, macOS Ventura 13, macOS Sonoma 14, macOS Sequoia 15, macOS Tahoe 26 / Boot Windows 10, Windows 11 natively
 
-### Update 04 Nov 2025 Adapted for Tahoe 26. Update OpenCore 1.0.6
+### Update 14 Nov 2025 Adapted for Tahoe 26. Update OpenCore 1.0.7
 ### Support  
 - CPU: i5-4590 (3,30 GHz)
 - Graphics: Intel HD 4600 / AMD Radeon Pro WX 4100 4 GB: 
